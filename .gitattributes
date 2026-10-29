@@ -1,0 +1,4 @@
+# 一律用 LF：这是给 Linux 执行的 shell 脚本，CRLF 会导致
+# "bash: $'\r': command not found" 这类难以定位的错误。
+* text=auto eol=lf
+*.sh text eol=lf
